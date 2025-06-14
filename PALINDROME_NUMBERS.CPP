@@ -1,10 +1,11 @@
 
-// Palindrome num
+// Palindrome numbers !!!
+
 int main()
 {
  int n , r, sum=0,temp;
  clrscr();
- cout <<"enter ni"<<endl;
+ cout <<"enter numbers" <<endl;
  cin>> n;
  temp=n;
  while(n>0){
@@ -13,10 +14,9 @@ int main()
  n=n/10;
  }
  if(temp==sum){
-  cout <<"pali";
+  cout <<"Palindrome Number"<<endl;
 }else{
-cout <<" not";
+cout <<" Not Palindrome numbers"<< endl;
 }
-getch();
 return 0;
 }
