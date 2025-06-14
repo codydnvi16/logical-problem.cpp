@@ -1,4 +1,5 @@
- // Armstrong numberss
+ // Armstrong numberss!!!!
+
  int main(){
   int n,r,sum=0,temp;
   clrscr();
@@ -6,18 +7,15 @@
   cin>> n;
   temp=n;
   while(n>0){
-
   r=n%10;
   sum=sum+(r*r*r);
   n=n/10;
-
   }
   if(temp==sum){
-   cout<<"arm";
+   cout<<"Armstrong number"<< endl;
    }else{
-    cout << "not arm";
+    cout << "Not armstrong number"<<endl;
     }
-    getch();
     return 0;
     }
 
