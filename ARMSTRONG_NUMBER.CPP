@@ -1,4 +1,6 @@
  // Armstrong numberss!!!!
+#include<iostream>
+using namespace std;
 
  int main(){
   int n,r,sum=0,temp;
